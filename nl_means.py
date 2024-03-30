@@ -1,6 +1,7 @@
 import numpy as np
 from numba import jit
-from utils import create_gaussian, add_noise
+from NLmeans_denoising.utils import create_gaussian, add_noise
+
 from scipy.ndimage import gaussian_filter
 from tqdm import trange
 
